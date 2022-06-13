@@ -12,6 +12,8 @@ void main(List<String> args) {
   infoPersona("Manuel", 67);
 
   infoPersona1(nombre: "Manuel", edad: 67, ciudad: "CDMX");
+
+  infoPersona1();
 }
 
 //void infoPersona(String nombre, int edad, {required String ciudad}) {
