@@ -10,9 +10,15 @@ void main(List<String> args) {
 
   //infoPersona("Manuel", 67, ciudad: "CDMX");
   infoPersona("Manuel", 67);
+
+  infoPersona1(nombre: "Manuel", edad: 67, ciudad: "CDMX");
 }
 
 //void infoPersona(String nombre, int edad, {required String ciudad}) {
 void infoPersona(String nombre, int edad, {String? ciudad}) {
+  print('Descripcion: $nombre con $edad años de $ciudad');
+}
+
+void infoPersona1({String? nombre, int? edad, String? ciudad}) {
   print('Descripcion: $nombre con $edad años de $ciudad');
 }
